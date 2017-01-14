@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Spicy Rice', cursive;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+section#board {
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 640px;
+    height: 640px;
+}
+#board div {
+    width: 64px;
+    height: 64px;
+    border: 0.5px solid blue;
+    display: inline-block;
+    float: left;
+}
+#resultDiv {
+    margin-top: 10px;
+    margin: 0 auto;
+    width: 340px;
+    height: 80px;
+    color: navy;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+.furry {
+    background-image: url("../images/furry.png");
+    background-repeat: no-repeat;
+    background-position: cover;
+}
+.coin {
+    background-image: url("../images/coin.png");
+    background-repeat: no-repeat;
+    background-position: cover;
+}
+.gameover {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 640px;
+    height: 150px;
+    color: navy;
+    text-transform: uppercase;
+    font-size: 3em;
+}
